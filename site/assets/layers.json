@@ -1,0 +1,35 @@
+[
+  {
+    "id": "localidades",
+    "title": "Localidades",
+    "file": "localidades.geojson",
+    "color": "#8039B5",
+    "fillOpacity": 0.13,
+    "weight": 1.5,
+    "fields": [
+      "nombre",
+      "cod_localidad",
+      "cod_partido",
+      "sup_km2"
+    ],
+    "count": 29,
+    "source": "Poblaciones.org",
+    "sourceUrl": "https://poblaciones.org/"
+  },
+  {
+    "id": "partido",
+    "title": "Límite del partido",
+    "file": "partido.geojson",
+    "color": "#303030",
+    "fillOpacity": 0,
+    "weight": 3,
+    "fields": [
+      "nombre",
+      "cod_partido",
+      "provincia",
+      "sup_km2"
+    ],
+    "count": 1,
+    "source": "Instituto Geográfico Nacional (IGN)"
+  }
+]

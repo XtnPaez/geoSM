@@ -9,3 +9,6 @@
 | 5 | Nuevas capas y diagnósticos | Mantenimiento, optimización y versiones | Procedimiento reproducible |
 
 Sin fechas rígidas. Roadmap tecnológico subordinado al territorial. Medir fuentes, recursos, capas, permisos, metadatos, vigencia, errores, tamaño, rendimiento, costo y esfuerzo. Línea de base pendiente.
+
+## Prototipo 0.1.0
+Portada y cuatro secciones implementadas; dos geografías, catálogo y visor. Pendiente instalar dependencias, probar en escritorio y móvil, verificar fuentes/licencias, validar superficies, preparar despliegue y DNS. Radios e indicadores en etapa posterior.
