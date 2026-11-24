@@ -1,0 +1,4 @@
+# Política editorial
+Diagnósticos territoriales rigurosos: distinguir dato, procesamiento, resultado, interpretación y recomendación. Documentar fuentes, fechas, unidades, supuestos, incertidumbre y limitaciones; no equiparar proximidad con accesibilidad ni cantidad de equipamientos con capacidad. No publicar datos personales ni combinaciones reidentificables. Independencia institucional y partidaria; crítica basada en evidencia.
+
+Formatos propuestos: mapa comentado, informe breve, estudio territorial. Dos líneas de comunicación: territorio (ciudadanía) y construcción (profesionales). Redes y frecuencia pendientes. Autoría, metodología, código y versiones como evidencia profesional. IA asistencial: validar resultados, no inventar fuentes, no exponer secretos ni datos sensibles, mantener responsabilidad humana. Registrar usos relevantes y controles.
