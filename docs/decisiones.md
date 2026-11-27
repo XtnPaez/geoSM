@@ -46,3 +46,29 @@ Consulta de polígonos fuera del panel lateral; navegación con bullets de cada 
 - Los badges institucionales son los enlaces de navegación; se eliminan los textos inferiores. Sustituye la decisión de 0.1.3.
 - Se conserva el fondo cromático y el texto blanco; la sección activa se distingue con un contorno blanco.
 - Prueba visual pendiente. Responsive, GitHub Pages y dominio diferidos.
+
+## 0.1.5 — 2026-11-27
+
+- Badges de navegación sin cambios visuales por hover, clic o sección activa; se conserva foco de teclado.
+- Portada simplificada y cuatro fichas con botones cromáticos.
+- Página Proyecto accesible desde el footer; texto institucional propuesto.
+- Visualizador y datos sin cambios. Responsive, publicación y DNS diferidos.
+
+## 2026-11-27 — Correcciones de portada v0.1.5 (acordadas)
+- Encabezado institucional en una línea cuando el ancho de pantalla lo permita; adaptación de tipografía en dispositivos pequeños.
+- Se elimina el CTA independiente «Explorar el mapa»; las cuatro tarjetas conservan sus enlaces como botones de color propio.
+- Footer: `geoSM · GitHub · Prototipo 0.1.5 // Proyecto`. Proyecto es una sección institucional accesible desde el footer, representada con un badge naranja. No se agrega al navbar.
+- Corrección técnica: evitar mostrar versiones antiguas de CSS y fragmentos compartidos por la caché del navegador.
+- Pendiente: comprobación en navegador, pruebas responsive y publicación.
+
+
+## 0.2.0 — Catálogo de datos (2026-11-27)
+
+Catálogo estático inspirado en CKAN; inventario compartido `site/assets/layers.json`. Descargas GeoJSON y GeoPackage; QMD diferido. Ejecutar `python tools/publicar_datos.py` para copiar recursos locales sin descargar bibliotecas. Licencias específicas pendientes de verificar antes de publicación pública.
+
+## 0.2.1 — Licencias y cierre local (2026-11-27)
+
+- El responsable confirmó todas las pruebas funcionales del catálogo 0.2.0 y el inventario compartido; navegador validado.
+- Se adopta CC BY 4.0 para contenidos originales propios y MIT para código propio. Véase [política de licencias](../LICENSE.md) en la raíz. Los materiales de terceros conservan sus condiciones; permisos concretos de redistribución pendientes.
+- Proyecto explica la elección de licencias; footer actualizado.
+- Metadatos ampliados, QMD y pruebas responsive diferidos. Próxima meta: preparar GitHub, Actions, Pages y dominio geosm.ar; sin publicación ni cambios remotos realizados.

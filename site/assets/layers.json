@@ -14,7 +14,51 @@
     ],
     "count": 29,
     "source": "Poblaciones.org",
-    "sourceUrl": "https://poblaciones.org/"
+    "sourceUrl": "https://poblaciones.org/",
+    "datasetTitle": "Localidades de General San Martín",
+    "category": "Geografías de referencia",
+    "description": "Delimitación poligonal de las localidades del partido, con códigos de referencia BAHRA.",
+    "tags": [
+      "límites",
+      "General San Martín",
+      "localidades"
+    ],
+    "license": "Datos públicos según el responsable de geoSM; licencia específica y condiciones de redistribución pendientes de verificación.",
+    "method": "Cruce espacial con puntos BAHRA informado por el responsable; se eliminó un registro duplicado y se conservaron dos códigos nulos.",
+    "dictionary": [
+      {
+        "name": "id",
+        "description": "Identificador interno"
+      },
+      {
+        "name": "cod_partido",
+        "description": "Código del partido"
+      },
+      {
+        "name": "nombre",
+        "description": "Nombre de la entidad"
+      },
+      {
+        "name": "sup_km2",
+        "description": "Superficie informada en km²; metodología pendiente"
+      },
+      {
+        "name": "cod_localidad",
+        "description": "Código de referencia BAHRA (puede ser nulo)"
+      }
+    ],
+    "resources": [
+      {
+        "format": "GeoJSON",
+        "file": "localidades.geojson",
+        "bytes": 81037
+      },
+      {
+        "format": "GeoPackage",
+        "file": "localidades.gpkg",
+        "bytes": 163840
+      }
+    ]
   },
   {
     "id": "partido",
@@ -30,6 +74,54 @@
       "sup_km2"
     ],
     "count": 1,
-    "source": "Instituto Geográfico Nacional (IGN)"
+    "source": "Instituto Geográfico Nacional (IGN)",
+    "datasetTitle": "Límite del partido de General San Martín",
+    "category": "Geografías de referencia",
+    "description": "Delimitación geográfica del partido de General San Martín, provincia de Buenos Aires.",
+    "tags": [
+      "límites",
+      "General San Martín",
+      "partido"
+    ],
+    "license": "Datos públicos según el responsable de geoSM; licencia específica y condiciones de redistribución pendientes de verificación.",
+    "method": "Geometría de referencia IGN, exportada a coordenadas geográficas.",
+    "dictionary": [
+      {
+        "name": "id",
+        "description": "Identificador interno"
+      },
+      {
+        "name": "cod_partido",
+        "description": "Código del partido"
+      },
+      {
+        "name": "nombre",
+        "description": "Nombre de la entidad"
+      },
+      {
+        "name": "cod_prov",
+        "description": "Código de provincia"
+      },
+      {
+        "name": "provincia",
+        "description": "Nombre de provincia"
+      },
+      {
+        "name": "sup_km2",
+        "description": "Superficie informada en km²; metodología pendiente"
+      }
+    ],
+    "resources": [
+      {
+        "format": "GeoJSON",
+        "file": "partido.geojson",
+        "bytes": 10678
+      },
+      {
+        "format": "GeoPackage",
+        "file": "partido.gpkg",
+        "bytes": 102400
+      }
+    ]
   }
 ]

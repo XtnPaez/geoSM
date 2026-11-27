@@ -12,3 +12,16 @@ Sin fechas rígidas. Roadmap tecnológico subordinado al territorial. Medir fuen
 
 ## Prototipo 0.1.0
 Portada y cuatro secciones implementadas; dos geografías, catálogo y visor. Pendiente instalar dependencias, probar en escritorio y móvil, verificar fuentes/licencias, validar superficies, preparar despliegue y DNS. Radios e indicadores en etapa posterior.
+
+## Estado al 27 de noviembre de 2026
+
+| Versión | Objetivo | Estado |
+|---|---|---|
+| v0.1.x | Prototipo fundacional | Completado localmente |
+| v0.2.0 | Catálogo de datos | Validado por el responsable |
+| v0.2.1 | Licencias y documentación | Actualización local |
+| v0.3.0 | GitHub Pages y dominio | Próxima meta |
+| v0.4.0 | Radios e indicadores | Propuesto |
+| v0.5.0 | Primer informe | Propuesto |
+
+Metadatos ampliados y responsive diferidos. Verificar permisos de terceros antes de publicación.

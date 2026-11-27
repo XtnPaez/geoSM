@@ -20,10 +20,10 @@ Iniciativa ciudadana independiente, no gubernamental, de información geográfic
 - [Identidad visual](docs/identidad_visual.md)
 - [Inventario y evaluación](docs/inventario.md)
 - [Política editorial](docs/politica_editorial.md)
-- [Infraestructura pendiente](docs/infraestructura.md)
+- [Infraestructura](docs/infraestructura.md)
 - [Cambios](CHANGELOG.md)
 
-Estado: estructura inicial; no hay visor, capas verificadas ni informes publicados. Repositorio: https://github.com/XtnPaez/geoSM . No representa al municipio. Licencias de código y productos propios pendientes de definición; la apertura prevista no equivale a una licencia concedida.
+Estado actual: catálogo y visor validados localmente; sin publicación pública ni informes publicados. Repositorio: https://github.com/XtnPaez/geoSM . No representa al municipio. Licencias propias: CC BY 4.0 y MIT; véase [política de licencias](LICENSE.md).
 
 ## Prototipo 0.1.0 (local, no publicar todavía)
 
@@ -56,3 +56,25 @@ Superponer los archivos del ZIP de actualización en la raíz. No volver a ejecu
 - Los badges institucionales son los enlaces de navegación; se eliminan los textos inferiores. Sustituye la decisión de 0.1.3.
 - Se conserva el fondo cromático y el texto blanco; la sección activa se distingue con un contorno blanco.
 - Prueba visual pendiente. Responsive, GitHub Pages y dominio diferidos.
+
+## 0.1.5 — 2026-11-27
+
+- Badges de navegación sin cambios visuales por hover, clic o sección activa; se conserva foco de teclado.
+- Portada simplificada y cuatro fichas con botones cromáticos.
+- Página Proyecto accesible desde el footer; texto institucional propuesto.
+- Visualizador y datos sin cambios. Responsive, publicación y DNS diferidos.
+
+## Corrección de presentación de la versión local 0.1.5
+Descomprimir el ZIP de actualización en la raíz del repositorio, respetando los directorios. La página `site/proyecto/index.html` debe existir. El navegador cargará `style.css?v=0.1.5-fix1` y los fragmentos de cabecera/pie sin caché para evitar restos de versiones anteriores. Probar `http://localhost:8000/` y `http://localhost:8000/proyecto/`. No es necesario ejecutar `tools/preparar.py` nuevamente. La publicación pública y las pruebas en celular siguen diferidas.
+
+
+## 0.2.0 — Catálogo de datos (2026-11-27)
+
+Catálogo estático inspirado en CKAN; inventario compartido `site/assets/layers.json`. Descargas GeoJSON y GeoPackage; QMD diferido. Ejecutar `python tools/publicar_datos.py` para copiar recursos locales sin descargar bibliotecas. Licencias específicas pendientes de verificar antes de publicación pública.
+
+## 0.2.1 — Licencias y cierre local (2026-11-27)
+
+- El responsable confirmó todas las pruebas funcionales del catálogo 0.2.0 y el inventario compartido; navegador validado.
+- Se adopta CC BY 4.0 para contenidos originales propios y MIT para código propio. Véase [política de licencias](LICENSE.md) en la raíz. Los materiales de terceros conservan sus condiciones; permisos concretos de redistribución pendientes.
+- Proyecto explica la elección de licencias; footer actualizado.
+- Metadatos ampliados, QMD y pruebas responsive diferidos. Próxima meta: preparar GitHub, Actions, Pages y dominio geosm.ar; sin publicación ni cambios remotos realizados.
